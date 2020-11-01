@@ -1,7 +1,15 @@
 /* Add your CSS to this file */
+
 body {
     margin: 0;
     font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.message {
+    color: red;
+    font-weight: bolder;
 }
 
 .container {
@@ -9,3 +17,294 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+ul {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    margin-left: 50%;
+    padding-top: 50px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li>a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #6b7280;
+}
+
+a:hover {
+    color: #5A67D8;
+}
+
+header>.container {
+    display: flex;
+    background-color: white;
+}
+
+h1 {
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.overview-hero-image {
+    padding: 20px;
+}
+
+.overview-hero>.container {
+    display: flex;
+}
+
+.overview-hero {
+    background-color: #E2E8F0;
+    padding: 100px;
+}
+
+
+/*
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+.card {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-color: #E2E8F0;
+    border-radius: 5px;
+}
+*/
+
+.learn-about {
+    padding: 30px;
+}
+
+.learn-about>.container>.cards {
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+}
+
+.learn-about>.container>.cards>.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.9s;
+    width: 90%;
+}
+
+.card-body {
+    padding: 10px 10px;
+}
+
+.card-body>h3 {
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.container>h2 {
+    color: #48BB78;
+}
+
+.testing>.container {
+    display: grid;
+    grid-template-columns: 70% 60%;
+}
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 100px;
+}
+
+.cta {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.cta>.btn {
+    background-color: #48BB78;
+    color: white;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+article>img {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.stories>.container>article {
+    display: flex;
+}
+
+.article-body>h3 {
+    font-size: 18px;
+}
+
+.stories>.container>h2 {
+    color: #5A67d8;
+}
+
+.article-body>p>a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #5A67d8;
+    font-weight: bold;
+}
+
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+button {
+    background-color: #5A67D8;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.form-group {
+    padding-right: 5px;
+}
+
+
+/*
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+footer {
+    background-color: #4A5568;
+    color: white;
+}
+
+.container>h3 {
+    color: white;
+}
+*/
+
+footer {
+    background-color: #4A5568;
+}
+
+footer>.container {
+    padding-bottom: 0.5%;
+}
+
+footer>.container>p {
+    color: white;
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+}
+
+
+/*
+
+
+.contain {
+    border: 2px solid;
+    padding: 30px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview-hero {
+    padding: 30px;
+    background-color: lightgray;
+}
+
+.overview-hero-image {
+    padding: 20px;
+}
+
+.C {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#para {
+    height: 50%;
+}
+
+.card {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news {
+    padding: 20px;
+    text-align: center;
+    background-color: #48BB78;
+    color: white;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #5A67D8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+
+h1 {
+    float: left;
+}
+*/
